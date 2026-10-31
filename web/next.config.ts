@@ -29,11 +29,16 @@ const securityHeaders = [
 
 const isStaticExport = process.env.MIHALYCH_STATIC_EXPORT === "1";
 
+/** Project Pages URL: https://<user>.github.io/katalog-mihalich/ */
+const basePath =
+  process.env.BASE_PATH || process.env.NEXT_PUBLIC_BASE_PATH || "";
+
 const nextConfig: NextConfig = isStaticExport
   ? {
       output: "export",
       trailingSlash: true,
       images: { unoptimized: true },
+      ...(basePath ? { basePath, assetPrefix: basePath } : {}),
     }
   : {
       async headers() {
