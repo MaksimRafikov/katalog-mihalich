@@ -1,0 +1,32 @@
+---
+description: Галерея «до» — отдельный блок после фото и видео готового ремонта
+globs: web/src/data/cases.ts,web/src/app/catalog/**/*,web/src/components/CaseGallery.tsx,WORKFLOW.md
+alwaysApply: false
+---
+
+# Галерея «до ремонта»
+
+## Порядок на странице кейса
+
+1. `gallery` — фото **готового** ремонта (основной блок «Фото»)
+2. `videos` — видео готового ремонта
+3. `galleryBefore` — фото **до** ремонта (отдельный блок «До ремонта»)
+
+Не смешивать «до» и «после» в одном `gallery` и не помечать каждое фото caption `"До"`.
+
+## Данные (`cases.ts`)
+
+| Поле | Смысл | Файлы |
+|------|--------|--------|
+| `gallery` | После / готовый объект | `web/public/cases/<slug>/gallery/` |
+| `galleryBefore` | До ремонта | `web/public/cases/<slug>/gallery-before/` |
+
+- Есть только «до» — заполняй **только** `galleryBefore`, `gallery` не ставь.
+- Есть только «после» — только `gallery`.
+- Есть оба — оба поля; «до» всегда ниже видео.
+
+## UI
+
+- Второй `CaseGallery`: `heading="До ремонта"`, `id="gallery-before"`.
+- CTA «Смотреть фото» ведёт на `#gallery`, если есть после; иначе на `#gallery-before`.
+- При наличии обоих — доп. ссылка «Фото до» → `#gallery-before`.
