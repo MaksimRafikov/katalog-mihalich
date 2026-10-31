@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { isImageCover } from "@/data/cases";
+import { withBasePath } from "@/lib/paths";
 
 type CaseCardProps = {
   href: string;
@@ -27,7 +28,7 @@ export function CaseCard({
         <div className="relative aspect-[4/3] overflow-hidden bg-line transition-opacity duration-300 group-hover:opacity-90">
           {image ? (
             <Image
-              src={cover}
+              src={withBasePath(cover)}
               alt=""
               fill
               sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"

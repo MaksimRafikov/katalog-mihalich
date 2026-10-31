@@ -4,6 +4,7 @@ import Image from "next/image";
 import { useState } from "react";
 import { CaseLightbox, type LightboxImage } from "@/components/CaseLightbox";
 import { MobileOpenAffordance } from "@/components/MobileOpenAffordance";
+import { withBasePath } from "@/lib/paths";
 
 export type CaseGalleryImage = {
   src: string;
@@ -24,9 +25,12 @@ const TILE_SIZES =
 function normalize(
   images: readonly (string | CaseGalleryImage)[],
 ): CaseGalleryImage[] {
-  return images.map((item) =>
-    typeof item === "string" ? { src: item, alt: "" } : item,
-  );
+  return images.map((item) => {
+    if (typeof item === "string") {
+      return { src: withBasePath(item), alt: "" };
+    }
+    return { ...item, src: withBasePath(item.src) };
+  });
 }
 
 export function CaseGallery({

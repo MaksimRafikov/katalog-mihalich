@@ -1,3 +1,5 @@
+import { withBasePath } from "@/lib/paths";
+
 export type ObjectType = "apartment" | "house" | "commercial";
 
 export type CaseGalleryItem = {
@@ -614,7 +616,7 @@ export function isImageCover(cover: string): boolean {
 
 /** Catalog preview: обложка without bear — never fall back to hero image. */
 export function catalogPreviewSrc(item: RenovationCase): string {
-  if (item.card) return item.card;
+  if (item.card) return withBasePath(item.card);
   if (!isImageCover(item.cover)) return item.cover;
   return "#070B14";
 }
@@ -652,5 +654,6 @@ export function objectTypeLabel(type: ObjectType): string {
 }
 
 export function gallerySrc(item: string | CaseGalleryItem): string {
-  return typeof item === "string" ? item : item.src;
+  const src = typeof item === "string" ? item : item.src;
+  return withBasePath(src);
 }

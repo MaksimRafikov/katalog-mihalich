@@ -15,6 +15,7 @@ import {
   type CaseVideo,
 } from "@/data/cases";
 import { site } from "@/data/site";
+import { withBasePath } from "@/lib/paths";
 
 type PageProps = {
   params: Promise<{ slug: string }>;
@@ -60,7 +61,10 @@ function galleryItems(
   if (!gallery) return [];
   return gallery.map((entry, index) => {
     if (typeof entry === "string") {
-      return { src: entry, alt: `${title} — фото ${index + 1}` };
+      return {
+        src: withBasePath(entry),
+        alt: `${title} — фото ${index + 1}`,
+      };
     }
     return {
       src: gallerySrc(entry),
@@ -97,7 +101,7 @@ export default async function CasePage({ params }: PageProps) {
       <div className="relative h-[min(62vh,32rem)] w-full bg-line">
         {isImageCover(item.cover) ? (
           <Image
-            src={item.cover}
+            src={withBasePath(item.cover)}
             alt={item.title}
             fill
             priority
@@ -171,7 +175,7 @@ export default async function CasePage({ params }: PageProps) {
             ) : null}
             {item.projectPdf ? (
               <a
-                href={item.projectPdf}
+                href={withBasePath(item.projectPdf)}
                 className="inline-flex min-h-11 items-center border border-line px-5 py-3 text-sm text-ink transition-colors duration-200 hover:border-ink"
                 target="_blank"
                 rel="noopener noreferrer"

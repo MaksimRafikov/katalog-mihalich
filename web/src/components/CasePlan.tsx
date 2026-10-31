@@ -4,6 +4,7 @@ import Image from "next/image";
 import { useState } from "react";
 import { CaseLightbox } from "@/components/CaseLightbox";
 import { MobileOpenAffordance } from "@/components/MobileOpenAffordance";
+import { withBasePath } from "@/lib/paths";
 
 type CasePlanProps = {
   src: string;
@@ -19,6 +20,7 @@ export function CasePlan({
   heading = "Планировка",
 }: CasePlanProps) {
   const [open, setOpen] = useState(false);
+  const resolved = withBasePath(src);
 
   return (
     <section className="border-b border-line py-10" id="plan">
@@ -35,7 +37,7 @@ export function CasePlan({
       >
         <span className="relative block aspect-[4/3] w-full">
           <Image
-            src={src}
+            src={resolved}
             alt={alt}
             fill
             sizes="(max-width: 768px) 100vw, 48rem"
@@ -47,7 +49,7 @@ export function CasePlan({
 
       {open ? (
         <CaseLightbox
-          images={[{ src, alt }]}
+          images={[{ src: resolved, alt }]}
           index={0}
           onClose={() => setOpen(false)}
           onPrev={() => undefined}

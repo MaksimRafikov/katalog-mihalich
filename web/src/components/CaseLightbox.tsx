@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import { withBasePath } from "@/lib/paths";
 import { useEffect, useId, useRef, useSyncExternalStore } from "react";
 import { createPortal } from "react-dom";
 import { useLightboxGestures } from "@/components/useLightboxGestures";
@@ -183,7 +184,7 @@ export function CaseLightbox({
         style={imageStyle}
       >
         <Image
-          src={current.src}
+          src={withBasePath(current.src)}
           alt={current.alt ?? ""}
           fill
           sizes="(max-width: 1280px) 100vw, 64rem"

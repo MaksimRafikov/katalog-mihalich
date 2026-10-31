@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { site } from "@/data/site";
+import { withBasePath } from "@/lib/paths";
 
 export type BrandTaglineTone = "paper" | "mute" | "accent" | "ink" | "night";
 
@@ -78,7 +79,7 @@ export function BrandLogo({
       className={`inline-flex min-w-0 items-center ${styles.root} ${className}`}
     >
       <Image
-        src={site.logoMascot}
+        src={withBasePath(site.logoMascot)}
         alt=""
         width={711}
         height={766}
@@ -91,7 +92,7 @@ export function BrandLogo({
         className={`flex min-w-0 flex-col items-start ${showTagline ? "justify-center gap-0.5" : "justify-center"}`}
       >
         <Image
-          src={site.logoWordmark}
+          src={withBasePath(site.logoWordmark)}
           alt=""
           width={1000}
           height={202}
