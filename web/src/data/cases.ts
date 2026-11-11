@@ -247,7 +247,13 @@ export const cases: RenovationCase[] = [
     area: 35,
     complex: "Цветы Башкирии",
     cover: "#070B14",
+    card: "/cases/murzina/oblojka.webp",
     plan: "/cases/murzina/plan-new.webp",
+    gallery: [
+      "/cases/murzina/gallery/01.webp",
+      "/cases/murzina/gallery/02.webp",
+      "/cases/murzina/gallery/03.webp",
+    ],
   },
   {
     slug: "nedoshvina",
