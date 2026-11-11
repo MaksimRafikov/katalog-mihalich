@@ -9,6 +9,7 @@
 
 | Рабочий slug (черновик) | Папка | Img | Vid | Docs | Статус | Заметки |
 |-------------------------|-------|-----|-----|------|--------|---------|
+| imperial | ЖК Империал | 0 | 1 | — | video-only | В каталоге: cover `#070B14` + after.mp4 + poster; без area/summary/фото; сырьё `Проекты/ЖК Империал` |
 | gran-familia | ЖК GranFamilia, 50 кв м | 10+ | 1 | Информация.docx | ready | В каталоге: cover + gallery/01–09 + after.mp4 |
 | banya | Баня | 24 | 2 | Описание.docx | partial | + ChatGPT-картинки — не в прод |
 | grand-family | ЖК Гранд Фамили | 19 | 0 | Информация.docx | partial | JPG готовее остальных; см. gran-familia |

@@ -63,6 +63,20 @@ export const AREA_FILTERS = [
 /** Newest first. Add published cases at the top. */
 export const cases: RenovationCase[] = [
   {
+    slug: "imperial",
+    title: "ЖК Империал",
+    objectType: "apartment",
+    complex: "Империал",
+    cover: "#070B14",
+    videos: [
+      {
+        src: "/cases/imperial/after.mp4",
+        poster: "/cases/imperial/review-poster.webp",
+        label: "После ремонта",
+      },
+    ],
+  },
+  {
     slug: "petropavlovsky",
     title: "ЖК Петропавловский",
     objectType: "apartment",
@@ -74,6 +88,13 @@ export const cases: RenovationCase[] = [
         poster: "/cases/petropavlovsky/review-poster.webp",
         label: "После ремонта",
       },
+    ],
+    galleryBefore: [
+      "/cases/petropavlovsky/gallery-before/01.webp",
+      "/cases/petropavlovsky/gallery-before/02.webp",
+      "/cases/petropavlovsky/gallery-before/03.webp",
+      "/cases/petropavlovsky/gallery-before/04.webp",
+      "/cases/petropavlovsky/gallery-before/05.webp",
     ],
   },
   {

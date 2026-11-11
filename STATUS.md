@@ -4,8 +4,9 @@ Next.js static catalog (Ellis-shaped) + content discipline from За Комфо�
 
 ## Handoff
 
-- **Фаза сейчас:** 15 кейсов; `kommunisticheskaya-98` доведён до полного (cover+oblojka+gallery+galleryBefore)
+- **Фаза сейчас:** кейсы в каталоге; сверху новые video-only (`imperial`, `petropavlovsky`, …)
 - **Сделано:**
+  - Video-only: `imperial` (ЖК Империал, after.mp4 + poster, cover `#070B14`)
   - Полные: `kommunisticheskaya-98`, `entuziastov-12`, `novoselov-8`, `gran-familia`, `internatsionalnaya`, `chernikovka-stalinka` (title **ул. Ульяновых**)
   - Черновики «только до» (`galleryBefore`), cover `#070B14`: `bystro-lunch`, `yarkiy`, `pushkina`, `parhomenko-123`, `grani-sultanova-28`, `marmyleva`, `nagaevsky-park`, `cottage-2024-12`
   - Каталог: превью = `oblojka.webp` из **Обложка** (без медведя); страница кейса: hero = `cover.webp` из **Главное** (медведь ок)
