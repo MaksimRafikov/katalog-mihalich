@@ -67,7 +67,8 @@ export const cases: RenovationCase[] = [
     title: "ЖК Империал",
     objectType: "apartment",
     complex: "Империал",
-    cover: "#070B14",
+    cover: "/placeholders/repair-in-progress/cover-01.webp",
+    card: "/placeholders/repair-in-progress/card-01.webp",
     videos: [
       {
         src: "/cases/imperial/after.mp4",
@@ -81,7 +82,8 @@ export const cases: RenovationCase[] = [
     title: "ЖК Петропавловский",
     objectType: "apartment",
     complex: "Петропавловский",
-    cover: "#070B14",
+    cover: "/placeholders/repair-in-progress/cover-02.webp",
+    card: "/placeholders/repair-in-progress/card-02.webp",
     videos: [
       {
         src: "/cases/petropavlovsky/after.mp4",
@@ -101,7 +103,8 @@ export const cases: RenovationCase[] = [
     slug: "hart-development",
     title: "Офис Hart Development",
     objectType: "commercial",
-    cover: "#070B14",
+    cover: "/placeholders/repair-in-progress/cover-03.webp",
+    card: "/placeholders/repair-in-progress/card-03.webp",
     videos: [
       {
         src: "/cases/hart-development/after.mp4",
@@ -114,7 +117,8 @@ export const cases: RenovationCase[] = [
     slug: "cottage",
     title: "Коттедж",
     objectType: "house",
-    cover: "#070B14",
+    cover: "/placeholders/repair-in-progress/cover-04.webp",
+    card: "/placeholders/repair-in-progress/card-04.webp",
     videos: [
       {
         src: "/cases/cottage/after.mp4",
@@ -128,7 +132,8 @@ export const cases: RenovationCase[] = [
     title: "Коттедж",
     objectType: "house",
     area: 160,
-    cover: "#070B14",
+    cover: "/placeholders/repair-in-progress/cover-05.webp",
+    card: "/placeholders/repair-in-progress/card-05.webp",
     videos: [
       {
         src: "/cases/cottage-160/after.mp4",
@@ -142,7 +147,8 @@ export const cases: RenovationCase[] = [
     title: "ЖК Сенатор 2",
     objectType: "apartment",
     complex: "Сенатор",
-    cover: "#070B14",
+    cover: "/placeholders/repair-in-progress/cover-06.webp",
+    card: "/placeholders/repair-in-progress/card-06.webp",
     videos: [
       {
         src: "/cases/senator-2/after.mp4",
@@ -157,7 +163,8 @@ export const cases: RenovationCase[] = [
     objectType: "apartment",
     area: 77,
     complex: "Виденеевский",
-    cover: "#070B14",
+    cover: "/placeholders/repair-in-progress/cover-01.webp",
+    card: "/placeholders/repair-in-progress/card-01.webp",
     plan: "/cases/videneevsky/plan.webp",
     galleryBefore: [
       "/cases/videneevsky/gallery-before/01.webp",
@@ -172,7 +179,8 @@ export const cases: RenovationCase[] = [
     title: "п. Шмидтово",
     objectType: "house",
     area: 91,
-    cover: "#070B14",
+    cover: "/placeholders/repair-in-progress/cover-02.webp",
+    card: "/placeholders/repair-in-progress/card-02.webp",
     plan: "/cases/shmitdovo/plan.png",
   },
   {
@@ -181,7 +189,8 @@ export const cases: RenovationCase[] = [
     objectType: "apartment",
     area: 50,
     complex: "Новолэнд",
-    cover: "#070B14",
+    cover: "/placeholders/repair-in-progress/cover-03.webp",
+    card: "/placeholders/repair-in-progress/card-03.webp",
     plan: "/cases/novoland/plan.png",
   },
   {
@@ -189,7 +198,8 @@ export const cases: RenovationCase[] = [
     title: "ул. Айская",
     objectType: "apartment",
     area: 46,
-    cover: "#070B14",
+    cover: "/placeholders/repair-in-progress/cover-04.webp",
+    card: "/placeholders/repair-in-progress/card-04.webp",
     plan: "/cases/ayskaya/plan.png",
   },
   {
@@ -197,7 +207,8 @@ export const cases: RenovationCase[] = [
     title: "ул. Гоголя",
     objectType: "apartment",
     area: 48,
-    cover: "#070B14",
+    cover: "/placeholders/repair-in-progress/cover-05.webp",
+    card: "/placeholders/repair-in-progress/card-05.webp",
     plan: "/cases/gogolya/plan.webp",
   },
   {
@@ -206,7 +217,8 @@ export const cases: RenovationCase[] = [
     objectType: "apartment",
     area: 48,
     complex: "Черемушки",
-    cover: "#070B14",
+    cover: "/placeholders/repair-in-progress/cover-06.webp",
+    card: "/placeholders/repair-in-progress/card-06.webp",
     plan: "/cases/cheremushki/plan.webp",
   },
   {
@@ -215,7 +227,8 @@ export const cases: RenovationCase[] = [
     objectType: "apartment",
     area: 44,
     complex: "Черемушки",
-    cover: "#070B14",
+    cover: "/placeholders/repair-in-progress/cover-01.webp",
+    card: "/placeholders/repair-in-progress/card-01.webp",
     plan: "/cases/gubaydullina-12/plan.webp",
   },
   {
@@ -224,7 +237,8 @@ export const cases: RenovationCase[] = [
     objectType: "apartment",
     area: 67,
     complex: "Черемушки",
-    cover: "#070B14",
+    cover: "/placeholders/repair-in-progress/cover-02.webp",
+    card: "/placeholders/repair-in-progress/card-02.webp",
     plan: "/cases/gubaydullina-10/plan.webp",
   },
   {
@@ -233,7 +247,8 @@ export const cases: RenovationCase[] = [
     objectType: "apartment",
     area: 50,
     complex: "Новолэнд",
-    cover: "#070B14",
+    cover: "/placeholders/repair-in-progress/cover-03.webp",
+    card: "/placeholders/repair-in-progress/card-03.webp",
     plan: "/cases/dostovalova/plan.webp",
   },
   {
@@ -242,7 +257,8 @@ export const cases: RenovationCase[] = [
     objectType: "apartment",
     area: 50,
     complex: "Сапфир",
-    cover: "#070B14",
+    cover: "/placeholders/repair-in-progress/cover-04.webp",
+    card: "/placeholders/repair-in-progress/card-04.webp",
     plan: "/cases/komsomolskaya/plan-8-59.webp",
   },
   {
@@ -250,7 +266,8 @@ export const cases: RenovationCase[] = [
     title: "ул. Летчиков",
     objectType: "apartment",
     area: 40,
-    cover: "#070B14",
+    cover: "/placeholders/repair-in-progress/cover-05.webp",
+    card: "/placeholders/repair-in-progress/card-05.webp",
     plan: "/cases/letchikov/plan-new.webp",
     galleryBefore: [
       "/cases/letchikov/gallery-before/01.webp",
@@ -267,7 +284,7 @@ export const cases: RenovationCase[] = [
     objectType: "apartment",
     area: 35,
     complex: "Цветы Башкирии",
-    cover: "#070B14",
+    cover: "/placeholders/repair-in-progress/cover-06.webp",
     card: "/cases/murzina/oblojka.webp",
     plan: "/cases/murzina/plan-new.webp",
     gallery: [
@@ -282,7 +299,8 @@ export const cases: RenovationCase[] = [
     objectType: "apartment",
     area: 83,
     complex: "Гринвич",
-    cover: "#070B14",
+    cover: "/placeholders/repair-in-progress/cover-01.webp",
+    card: "/placeholders/repair-in-progress/card-01.webp",
     plan: "/cases/nedoshvina/plan-v2.webp",
   },
   {
@@ -290,7 +308,8 @@ export const cases: RenovationCase[] = [
     title: "ул. Рыльского",
     objectType: "apartment",
     area: 82,
-    cover: "#070B14",
+    cover: "/placeholders/repair-in-progress/cover-02.webp",
+    card: "/placeholders/repair-in-progress/card-02.webp",
     plan: "/cases/rylskogo/plan-new.webp",
     videos: [
       {
@@ -306,7 +325,8 @@ export const cases: RenovationCase[] = [
     objectType: "apartment",
     area: 58,
     complex: "Город природы",
-    cover: "#070B14",
+    cover: "/placeholders/repair-in-progress/cover-03.webp",
+    card: "/placeholders/repair-in-progress/card-03.webp",
     plan: "/cases/spatara/plan-new.webp",
   },
   {
@@ -315,7 +335,8 @@ export const cases: RenovationCase[] = [
     objectType: "apartment",
     area: 44,
     complex: "Туа Хаус",
-    cover: "#070B14",
+    cover: "/placeholders/repair-in-progress/cover-04.webp",
+    card: "/placeholders/repair-in-progress/card-04.webp",
     plan: "/cases/entuziastov-7/plan.webp",
   },
   {
@@ -324,7 +345,8 @@ export const cases: RenovationCase[] = [
     objectType: "apartment",
     area: 75,
     complex: "Гринвич",
-    cover: "#070B14",
+    cover: "/placeholders/repair-in-progress/cover-05.webp",
+    card: "/placeholders/repair-in-progress/card-05.webp",
     plan: "/cases/greenwich/plan-new.webp",
   },
   {
@@ -333,7 +355,8 @@ export const cases: RenovationCase[] = [
     objectType: "apartment",
     area: 52,
     complex: "Диво",
-    cover: "#070B14",
+    cover: "/placeholders/repair-in-progress/cover-06.webp",
+    card: "/placeholders/repair-in-progress/card-06.webp",
     plan: "/cases/divo/plan.webp",
   },
   {
@@ -342,7 +365,8 @@ export const cases: RenovationCase[] = [
     objectType: "apartment",
     area: 45,
     complex: "Сапфир",
-    cover: "#070B14",
+    cover: "/placeholders/repair-in-progress/cover-01.webp",
+    card: "/placeholders/repair-in-progress/card-01.webp",
     plan: "/cases/sapfir/plan-new.webp",
   },
   {
@@ -384,7 +408,8 @@ export const cases: RenovationCase[] = [
     slug: "bystro-lunch",
     title: "Кафе Быстро Ланч",
     objectType: "commercial",
-    cover: "#070B14",
+    cover: "/placeholders/repair-in-progress/cover-02.webp",
+    card: "/placeholders/repair-in-progress/card-02.webp",
     galleryBefore: [
       "/cases/bystro-lunch/gallery-before/01.webp",
       "/cases/bystro-lunch/gallery-before/02.webp",
@@ -398,7 +423,8 @@ export const cases: RenovationCase[] = [
     title: "ЖК Яркий",
     objectType: "apartment",
     complex: "Яркий",
-    cover: "#070B14",
+    cover: "/placeholders/repair-in-progress/cover-03.webp",
+    card: "/placeholders/repair-in-progress/card-03.webp",
     galleryBefore: [
       "/cases/yarkiy/gallery-before/01.webp",
       "/cases/yarkiy/gallery-before/02.webp",
@@ -475,7 +501,8 @@ export const cases: RenovationCase[] = [
     slug: "pushkina",
     title: "ул. Пушкина",
     objectType: "apartment",
-    cover: "#070B14",
+    cover: "/placeholders/repair-in-progress/cover-04.webp",
+    card: "/placeholders/repair-in-progress/card-04.webp",
     galleryBefore: [
       "/cases/pushkina/gallery-before/01.webp",
       "/cases/pushkina/gallery-before/02.webp",
@@ -513,7 +540,8 @@ export const cases: RenovationCase[] = [
     slug: "cottage-2024-12",
     title: "Коттедж",
     objectType: "house",
-    cover: "#070B14",
+    cover: "/placeholders/repair-in-progress/cover-05.webp",
+    card: "/placeholders/repair-in-progress/card-05.webp",
     galleryBefore: [
       "/cases/cottage-2024-12/gallery-before/01.webp",
       "/cases/cottage-2024-12/gallery-before/02.webp",
@@ -527,7 +555,8 @@ export const cases: RenovationCase[] = [
     slug: "nagaevsky-park",
     title: "Коттедж Нагаевский парк",
     objectType: "house",
-    cover: "#070B14",
+    cover: "/placeholders/repair-in-progress/cover-06.webp",
+    card: "/placeholders/repair-in-progress/card-06.webp",
     galleryBefore: [
       "/cases/nagaevsky-park/gallery-before/01.webp",
       "/cases/nagaevsky-park/gallery-before/02.webp",
@@ -542,7 +571,8 @@ export const cases: RenovationCase[] = [
     title: "Коттедж д. Мармылево",
     objectType: "house",
     area: 105,
-    cover: "#070B14",
+    cover: "/placeholders/repair-in-progress/cover-01.webp",
+    card: "/placeholders/repair-in-progress/card-01.webp",
     videos: [
       {
         src: "/cases/marmyleva/after.mp4",
@@ -595,7 +625,8 @@ export const cases: RenovationCase[] = [
     title: "ЖК Грани",
     objectType: "apartment",
     complex: "Грани",
-    cover: "#070B14",
+    cover: "/placeholders/repair-in-progress/cover-02.webp",
+    card: "/placeholders/repair-in-progress/card-02.webp",
     galleryBefore: [
       "/cases/grani-sultanova-28/gallery-before/01.webp",
       "/cases/grani-sultanova-28/gallery-before/02.webp",

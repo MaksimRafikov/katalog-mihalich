@@ -40,5 +40,15 @@ UI: hero — `h-[min(62vh,32rem)]` / `object-cover`; карточка — `aspec
 ❌ card и cover из одного кадра с медведем
 ✅ card = Обложка (без медведя), 4∶3
 ✅ cover = Главное фото кейса (медведь ок), ~2.8∶1
-✅ временно cover/card = "#070B14"
+✅ временно cover/card = shared stub `/placeholders/repair-in-progress/*`
+✅ временно cover/card = "#070B14" (если stub ещё нет)
 ```
+
+## Заглушка «В процессе ремонта»
+
+Пока нет индивидуальной Обложки / Главного фото:
+
+- файлы: `web/public/placeholders/repair-in-progress/cover-0N.webp` + `card-0N.webp` (N = 01…06)
+- в `cases.ts`: `cover` + `card` на эти пути (ротация вариантов)
+- есть своя `oblojka.webp`, но нет hero — только `cover` на stub, `card` не трогать
+- сырьё PNG: `Лого и маскот/Заглушка В процессе ремонта/`
