@@ -346,8 +346,16 @@ export const cases: RenovationCase[] = [
     area: 75,
     complex: "Гринвич",
     cover: "/placeholders/repair-in-progress/cover-05.webp",
-    card: "/placeholders/repair-in-progress/card-05.webp",
+    card: "/cases/greenwich/oblojka.webp",
     plan: "/cases/greenwich/plan-new.webp",
+    gallery: [
+      "/cases/greenwich/gallery/01.webp",
+      "/cases/greenwich/gallery/02.webp",
+      "/cases/greenwich/gallery/03.webp",
+      "/cases/greenwich/gallery/04.webp",
+      "/cases/greenwich/gallery/05.webp",
+      "/cases/greenwich/gallery/06.webp",
+    ],
   },
   {
     slug: "divo",
